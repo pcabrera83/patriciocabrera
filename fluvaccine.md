@@ -10,7 +10,10 @@ permalink: /projects/vaccine/
       }
       @media only screen and (max-width: 475px) {
             .new-paragraph { 
-                  width: 370px;
+                  width: 370px; 
+            }
+            .foo {
+             color: red;
             }
             .remove-margin-top {
                   margin-top: -200px;
