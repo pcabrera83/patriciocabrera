@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekbubyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: "wrapper"
-permalink: /index
+permalink: 
 ---
 
 <section class="earth-map-bg">
