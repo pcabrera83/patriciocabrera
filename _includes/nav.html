@@ -3,7 +3,8 @@
         <div class="fs-header-wrapper">
             <div class="logo">
                 <a href="{{ site.url }}">
-                    <img alt="Patricio Cabrera Logo" class="logo-light" src="{{site.baseurl}}/assets/images/patriciocabrera-logo.png">
+                    <img alt="Patricio Cabrera Logo" class="logo-light" src="  
+                    {{ 'assets/images/patriciocabrera-logo.png' | relative_url }}" >
                 </a>
             </div>
             <div aria-controls="navigation" aria-label="Menu" class="toggle-fs-menu" role="button" tabindex="0">
@@ -22,7 +23,7 @@
                             <ul class="navigation-menu nav">
                                 {% for item in site.data.settings.menu %}
                                 <li class="">
-                                    <a href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a>
+                                    <a href="{{ site.url }}/{{ item.url }}">{{ item.name }}</a>
                                 </li>
                                 {% endfor %}
                             </ul>
