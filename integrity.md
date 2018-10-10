@@ -18,7 +18,7 @@ permalink: /projects/integrity/
 <section class="page-title parallax-section">
    <div class="row-parallax-bg">
       <div class="parallax-wrapper" style="transform: translate3d(0px, 0px, 0px);">
-         <div class="parallax-bg" style="background-image: url('/assets/images/integrity-tallan.jpg');"></div>
+         <div class="parallax-bg" style="background-image: url('{{site.baseurl}}/assets/images/integrity-tallan.jpg');"></div>
       </div>
       <div class="parallax-overlay"></div>
    </div>
@@ -83,7 +83,7 @@ permalink: /projects/integrity/
    <div class="container">
       <div class="row">
          <div class="col-md-7 mb-25">
-            <div class="media-video"><img class="img-responsive" src="/assets/images/integrity-tallan.jpg"></div>
+            <div class="media-video"><img class="img-responsive" src="{{site.baseurl}}/assets/images/integrity-tallan.jpg"></div>
          </div>
          <div class="col-md-4 col-md-offset-1">
             <div class="title">

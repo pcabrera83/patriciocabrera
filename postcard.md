@@ -21,7 +21,7 @@ permalink: /projects/postcard/
 <section class="page-title parallax-section">
    <div class="row-parallax-bg">
       <div class="parallax-wrapper" style="transform: translate3d(0px, 0px, 0px);">
-         <div class="parallax-bg" style="background-image: url('/assets/images/csc-breakfast.jpg');">
+         <div class="parallax-bg" style="background-image: url('{{site.baseurl}}/assets/images/csc-breakfast.jpg');">
          </div>
       </div>
       <div class="parallax-overlay"></div>
@@ -87,7 +87,7 @@ permalink: /projects/postcard/
       <div class="row">
          <div class="col-md-7 mb-25">
             <div class="media-video">
-               <img class="img-responsive" src="/assets/images/csc-breakfast.jpg"/>
+               <img class="img-responsive" src="{{site.baseurl}}/assets/images/csc-breakfast.jpg"/>
             </div>
          </div>
          <div class="col-md-4 col-md-offset-1">
@@ -125,18 +125,20 @@ permalink: /projects/postcard/
    <div class="container">
       <div class="projects-controller">
          <a class="prev" href="http://patcabrera.com/portfolio/pages/landing-page.html">
-         <span><i class="hc-arrow-round-back"></i> 
-         Previous Project
-         </span>
+            <span>
+                  <i class="hc-arrow-round-back"></i> 
+                  Previous Project
+            </span>
          </a>
          <a class="all" href="http://patcabrera.com/portfolio/index.html">
-         <span><i class="hc-apps"></i>
-         </span>
+            <span>
+                  <i class="hc-apps"></i>
+            </span>
          </a>
          <a class="next" href="http://patcabrera.com/portfolio/pages/fluvaccine.html">
-         <span>Next Project
-         <i class="hc-arrow-round-forward"></i>
-         </span>
+            <span>Next Project
+                  <i class="hc-arrow-round-forward"></i>
+            </span>
          </a>
       </div>
    </div>

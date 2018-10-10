@@ -21,7 +21,7 @@ permalink: /projects/restaurant-menu/
 <section class="page-title parallax-section">
    <div class="row-parallax-bg">
       <div class="parallax-wrapper" style="transform: translate3d(0px, 0px, 0px);">
-         <div class="parallax-bg" style="background-image: url('/assets/images/5mayo-menu.jpg');"></div>
+         <div class="parallax-bg" style="background-image: url('{{site.baseurl}}/assets/images/5mayo-menu.jpg');"></div>
       </div>
       <div class="parallax-overlay"></div>
    </div>
@@ -83,7 +83,7 @@ permalink: /projects/restaurant-menu/
    <div class="container">
       <div class="row">
          <div class="col-md-7 mb-25">
-            <div class="media-video"><img class="img-responsive" src="/assets/images/5mayo-menu.jpg"></div>
+            <div class="media-video"><img class="img-responsive" src="{{site.baseurl}}/assets/images/5mayo-menu.jpg"></div>
          </div>
          <div class="col-md-4 col-md-offset-1">
             <div class="title">
@@ -115,7 +115,20 @@ permalink: /projects/restaurant-menu/
 <section class="grey-bg p-0 last-section">
    <div class="container">
       <div class="projects-controller">
-         <a class="prev" href="http://patcabrera.com/portfolio/pages/fluvaccine.html"><span><i class="hc-arrow-round-back"></i> Previous Project</span></a> <a class="all" href="http://patcabrera.com/portfolio/index.html"><span><i class="hc-apps"></i></span></a> <a class="next" href="#"><span></span></a>
+         <a class="prev" href="http://patcabrera.com/portfolio/pages/fluvaccine.html">
+            <span>
+                  <i class="hc-arrow-round-back"></i> 
+                  Previous Project
+            </span>
+         </a> 
+         <a class="all" href="http://patcabrera.com/portfolio/index.html">
+            <span>
+                  <i class="hc-apps"></i>
+            </span>
+         </a> 
+         <a class="next" href="#">
+            <span></span>
+         </a>
       </div>
    </div>
 </section>

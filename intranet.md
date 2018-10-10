@@ -7,7 +7,7 @@ permalink: /projects/intranet/
 <section class="page-title parallax-section">
    <div class="row-parallax-bg">
       <div class="parallax-wrapper" style="transform: translate3d(0px, 0px, 0px);">
-         <div class="parallax-bg" style="background-image: url('/assets/images/ilg-login-page.jpg');">
+         <div class="parallax-bg" style="background-image: url('{{site.baseurl}}/assets/images/ilg-login-page.jpg');">
          </div>
       </div>
       <div class="parallax-overlay"></div>
@@ -53,7 +53,7 @@ permalink: /projects/intranet/
 <section class="split-section">
    <div class="side-background">
       <div class="col-md-6 col-sm-4 img-side img-left">
-         <div class="img-holder img-cover" style="background-image: url('/assets/images/ilg-personas.jpg');"></div>
+         <div class="img-holder img-cover" style="background-image: url('{{site.baseurl}}/assets/images/ilg-personas.jpg');"></div>
       </div>
    </div>
    <div class="container">
@@ -82,7 +82,7 @@ permalink: /projects/intranet/
 <section class="split-section">
    <div class="side-background">
       <div class="col-md-6 col-sm-4 img-side img-right">
-         <div class="img-holder img-cover" style="background-image: url('/assets/images//ilg-wireframes.jpg');"></div>
+         <div class="img-holder img-cover" style="background-image: url('{{site.baseurl}}/assets/images//ilg-wireframes.jpg');"></div>
       </div>
    </div>
    <div class="container">
@@ -100,7 +100,7 @@ permalink: /projects/intranet/
 <section class="split-section">
    <div class="side-background">
       <div class="col-md-6 col-sm-4 img-side img-left">
-         <div class="img-holder img-cover" style="background-image: url('/assets/images/ilg-deliverables.jpg');"></div>
+         <div class="img-holder img-cover" style="background-image: url('{{site.baseurl}}/assets/images/ilg-deliverables.jpg');"></div>
       </div>
    </div>
    <div class="container">
@@ -121,7 +121,21 @@ permalink: /projects/intranet/
 <section class="grey-bg p-0 last-section">
    <div class="container">
       <div class="projects-controller">
-         <a class="prev" href="http://patcabrera.com/portfolio/pages/billing-app.html"><span><i class="hc-arrow-round-back"></i> Previous Project</span></a> <a class="all" href="http://patcabrera.com/portfolio/index.html"><span><i class="hc-apps"></i></span></a> <a class="next" href="http://patcabrera.com/portfolio/pages/business-card.html"><span>Next Project<i class="hc-arrow-round-forward"></i></span></a>
+         <a class="prev" href="http://patcabrera.com/portfolio/pages/billing-app.html">
+            <span>
+            <i class="hc-arrow-round-back"></i> 
+            Previous Project
+            </span>
+         </a> 
+         <a class="all" href="http://patcabrera.com/portfolio/index.html">
+         <span>
+            <i class="hc-apps"></i>
+         </span>
+         </a> 
+         <a class="next" href="http://patcabrera.com/portfolio/pages/business-card.html">
+            <span>Next Project<i class="hc-arrow-round-forward"></i>
+         </span>
+         </a>
       </div>
    </div>
 </section>
