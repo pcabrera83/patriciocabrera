@@ -146,12 +146,12 @@ permalink: /projects/billing/
                   -->
             </span>
          </a>
-         <a class="all" href="http://patcabrera.com/portfolio/index.html">
+         <a class="all" href="{{ site.baseurl }}/">
             <span>
                   <i class="hc-apps"></i>
             </span>
             </a>
-            <a class="next" href="ilg.html">
+            <a class="next" href="{{ '/projects/intranet/' | relative_url }}">
                   <span>
                         Next Project <i class="hc-arrow-round-forward"></i>
                   </span>

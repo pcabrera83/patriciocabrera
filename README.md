@@ -25,7 +25,7 @@ Use handlebars-style tags to dynamically include substitution variables.  For ex
     </a>
 ```
 
-If you are want to loop through a list you need to create a `<fileName>.YML` in the `_data` folder.
+If you want to loop through a list you need to create a `<fileName>.YML` in the `_data` folder.
 
 ```xml
 <!-- Data File _data/project.yml -->

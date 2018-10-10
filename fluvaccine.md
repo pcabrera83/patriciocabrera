@@ -124,16 +124,16 @@ permalink: /projects/vaccine/
 <section class="grey-bg p-0 last-section">
    <div class="container">
       <div class="projects-controller">
-            <a class="prev" href="http://patcabrera.com/portfolio/pages/postcard.html">
+            <a class="prev" href="{{ '/projects/postcard/' | relative_url }}">
             <span>
                   <i class="hc-arrow-round-back"></i> Previous Project</span>
             </a> 
-            <a class="all" href="http://patcabrera.com/portfolio/index.html">
+            <a class="all" href="{{ site.baseurl }}/">
                   <span>
                         <i class="hc-apps"></i>
                   </span>
             </a> 
-            <a class="next" href="http://patcabrera.com/portfolio/pages/restaurant-menu.html">
+            <a class="next" href="{{ '/projects/restaurant-menu/' | relative_url }}">
                   <span>Next Project <i class="hc-arrow-round-forward"></i></span>
             </a>
       </div>

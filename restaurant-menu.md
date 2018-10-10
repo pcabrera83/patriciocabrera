@@ -116,20 +116,20 @@ permalink: /projects/restaurant-menu/
 <section class="grey-bg p-0 last-section">
    <div class="container">
       <div class="projects-controller">
-         <a class="prev" href="http://patcabrera.com/portfolio/pages/fluvaccine.html">
+         <a class="prev" href="{{ '/projects/vaccine/' | relative_url }}">
             <span>
                   <i class="hc-arrow-round-back"></i> 
                   Previous Project
             </span>
          </a> 
-         <a class="all" href="http://patcabrera.com/portfolio/index.html">
+         <a class="all" href="{{ site.baseurl }}/">
             <span>
                   <i class="hc-apps"></i>
             </span>
          </a> 
-         <a class="next" href="#">
+         <!-- <a class="next" href="#">
             <span></span>
-         </a>
+         </a> -->
       </div>
    </div>
 </section>

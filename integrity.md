@@ -110,7 +110,23 @@ permalink: /projects/integrity/
 <section class="grey-bg p-0 last-section">
    <div class="container">
       <div class="projects-controller">
-         <a class="prev" href="http://patcabrera.com/portfolio/pages/business-card.html"><span><i class="hc-arrow-round-back"></i> Previous Project</span></a> <a class="all" href="http://patcabrera.com/portfolio/index.html"><span><i class="hc-apps"></i></span></a> <a class="next" href="http://patcabrera.com/portfolio/pages/email.html"><span>Next Project<i class="hc-arrow-round-forward"></i></span></a>
+         <a class="prev" href="{{ '/projects/business-card/' | relative_url }}">
+            <span>
+                  <i class="hc-arrow-round-back"></i> 
+                  Previous Project
+            </span>
+         </a> 
+         <a class="all" href="{{ site.baseurl }}/">
+            <span>
+                  <i class="hc-apps"></i>
+            </span>
+         </a> 
+         <a class="next" href="{{ '/projects/email/' | relative_url }}">
+            <span>
+                  Next Project
+                  <i class="hc-arrow-round-forward"></i>
+            </span>
+         </a>
       </div>
    </div>
 </section>

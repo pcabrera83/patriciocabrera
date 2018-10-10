@@ -1,9 +1,9 @@
 - class: branding ui-ux
   imgSrc: /assets/images/billing-ipad.jpg
-  imgAlt: Screen shot of Tallan Billing App
+  imgAlt: Screenshot of Tallan Billing App
   url: /projects/billing/
-  Title: Billing App
-  Description: 'Envisioning, Wireframes, Design, Branding, UX/UI'
+  title: Billing App
+  description: 'Envisioning, Wireframes, Design, Branding, UX/UI'
 
 - class: product-design packaging
   imgSrc: /assets/images/ilg-login-page.jpg
@@ -18,14 +18,14 @@
   url: /projects/business-card/
   title: Business Cards
   description: 'Graphic Design'
-                      
+
 - class: ui-ux product-design
   imgSrc: /assets/images/integrity-tallan.jpg
-  imgAlt: Screen shot of Tallan's Integrity Page
+  imgAlt: Screenshot of Tallan Integrity Page
   url: /projects/integrity/
-  Title: Tallan - Integrity
-  Description: 'UX/UI, Design, HTML, LESS, Workflow Creation, Microsoft App Store'
-            
+  title: Integrity
+  description: 'UX/UI, Design, Workflow Creation, Microsoft App Store'
+  
 - class: ui-ux product-design
   imgSrc: /assets/images/email-design.jpg
   imgAlt: Screenshot of Responsive eMail design page
