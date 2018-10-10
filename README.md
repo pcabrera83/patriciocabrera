@@ -25,16 +25,35 @@ Use handlebars-style tags to dynamically include substitution variables.  For ex
     </a>
 ```
 
-If you are adding them to a component that has MJML as its children (for example, `mj-column` or `mj-section`), 
-you need to wrap the handlebars tags in `<mj-raw>` so that aren't swallowed: 
+If you are want to loop through a list you need to create a `<fileName>.YML` in the `_data` folder.
 
 ```xml
-<!-- This text will repeat for each person -->
-<mj-column>
-    <mj-raw>{{#each people}}</mj-raw>
-        <mj-text>Hi, {{ name }}</mj-text>
-    <mj-raw>{{/each}}></mj-raw>
-</mj-column>
+<!-- Data File -->
+- class: css class
+  imgSrc: <imagePath>
+  imgAlt: Image Alt Tag
+  url: <link>
+  Title: Project Title
+  Description: 'Project Description'
+
+<!-- Markdown -->
+{% for project in site.data.project %}
+<div class="work-item {{ project.class }}">
+    <div class="work-detail">
+        <a href="{{ project.url | relative_url }}">
+            <img alt="{{ project.imgAlt }}" src="{{ project.imgSrc | relative_url }}">
+            <div class="work-info">
+                <div class="centrize">
+                    <div class="v-center">
+                        <h3>{{ project.title }}</h3>
+                        <p>{{ project.description }}</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+{% endfor %}
 
 <!-- DON'T DO THIS - it won't work: -->
 <mj-column>
