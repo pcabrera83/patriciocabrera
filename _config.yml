@@ -13,22 +13,49 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Patricio Cabrera | UX/UI Designer
+email: pcabrera83@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: minima 
 plugins:
   - jekyll-feed
+  - jekyll-language-plugin
+  - jekyll-email-protect
+  - jekyll-analytics
+  - jekyll-autoprefixer
+  # - jekyll-less
+permalink: pretty
+
+defaults:
+  - scope:
+      path: "assets/images/projects"
+    values: 
+      image: true
+
+#LESS
+# gems: ['jekyll-less']
+
+#CSS
+auotprefixer:
+    browsers:
+      -last 2 versions
+      # only_production: true
+
+# Analytics
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-123-456          # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -41,3 +68,28 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+jekyll-minifier:
+  exclude: 'atom.xml'
+
+jekyll-minifier:
+preserve_php: true                # Default: false
+remove_spaces_inside_tags: true   # Default: true
+remove_multi_spaces: true         # Default: true
+remove_comments: true             # Default: true
+remove_intertag_spaces: true      # Default: false
+remove_quotes: false              # Default: false
+compress_css: true                # Default: true
+compress_javascript: true         # Default: true
+simple_doctype: false             # Default: false
+remove_script_attributes: false   # Default: false
+remove_style_attributes: false    # Default: false
+remove_link_attributes: false     # Default: false
+remove_form_attributes: false     # Default: false
+remove_input_attributes: false    # Default: false
+remove_javascript_protocol: false # Default: false
+remove_http_protocol: false       # Default: false
+remove_https_protocol: false      # Default: false
+preserve_line_breaks: false       # Default: false
+simple_boolean_attributes: false  # Default: false
+compress_js_templates: false      # Default: false

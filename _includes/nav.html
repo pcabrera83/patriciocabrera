@@ -1,8 +1,35 @@
-<nav>
-    <ul>
-        <li>A</li>
-        <li>B</li>
-        <li>C</li>
-        <li>D</li>
-    </ul>
-</nav>
+<header class="fs-menu-wrapper">
+    <div class="container">
+        <div class="fs-header-wrapper">
+            <div class="logo">
+                <a href="{{ site.url }}">
+                    <img alt="Patricio Cabrera Logo" class="logo-light" src="/assets/images/patriciocabrera-logo.png">
+                </a>
+            </div>
+            <div aria-controls="navigation" aria-label="Menu" class="toggle-fs-menu" role="button" tabindex="0">
+                <div class="hamburger">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fullscreen-menu">
+            <div class="centrize">
+                <div class="v-center">
+                    <div class="container">
+                        <div id="navigation">
+                            <ul class="navigation-menu nav">
+                                {% for item in site.data.settings.menu %}
+                                <li class="">
+                                    <a href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

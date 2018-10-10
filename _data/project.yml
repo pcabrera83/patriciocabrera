@@ -1,0 +1,62 @@
+- class: branding ui-ux
+  imgSrc: /assets/images/billing-ipad.jpg
+  imgAlt: Screen shot of Tallan Billing App
+  url: /projects/billing/
+  Title: Billing App
+  Description: 'Envisioning, Wireframes, Design, Branding, UX/UI'
+
+- class: product-design packaging
+  imgSrc: /assets/images/ilg-login-page.jpg
+  imgAlt: Screenshot of ILG Login Page
+  url: /projects/intranet/
+  title: Intranet Site
+  description: 'Envisioning, Wireframes, Design, Branding, UX/UI'
+
+- class: branding packaging
+  imgSrc: /assets/images/k-mandal-bc.png
+  imgAlt: Image of Krish Mandal Business Card
+  url: /projects/business-card/
+  title: Business Cards
+  description: 'Graphic Design'
+                      
+- class: ui-ux product-design
+  imgSrc: /assets/images/integrity-tallan.jpg
+  imgAlt: Screen shot of Tallan's Integrity Page
+  url: /projects/integrity/
+  Title: Tallan - Integrity
+  Description: 'UX/UI, Design, HTML, LESS, Workflow Creation, Microsoft App Store'
+            
+- class: ui-ux product-design
+  imgSrc: /assets/images/email-design.jpg
+  imgAlt: Screenshot of Responsive eMail design page
+  url: /projects/email/
+  title: Email Design
+  description: 'UX/UI, Design, MJML'
+
+- class: product-design packaging
+  imgSrc: /assets/images/ga-landingpage.jpg
+  imgAlt: Screenshot of Landing Page
+  url: /projects/landingpage/
+  title: Landing Page
+  description: 'UX/UI, Design, HTML, CSS, B2B, e-Commerce'
+
+- class: product-design packaging
+  imgSrc: /assets/images/csc-breakfast.jpg
+  imgAlt: Image of CT Science Center Invite Card
+  url: /projects/postcard/
+  title: Postcards
+  description: 'Design, Print, Invitations'
+            
+- class: ui-ux branding
+  imgSrc: /assets/images/mm-flu-vaccine.jpg
+  imgAlt: Image of Flu Vaccine Ordering Screen
+  url: /projects/vaccine/
+  title: McKesson/Moore Medical App Design
+  description: 'UI/UX, eCommerce, HTML, CSS, QA, Accesibilty'
+
+- class: branding ui-ux
+  imgSrc: /assets/images/5mayo-menu.jpg
+  imgAlt: Image of Menu Design
+  url: /projects/restaurant-menu/
+  title: Menu
+  description: 'Branding, Design, Layout'
