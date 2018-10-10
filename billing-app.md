@@ -7,7 +7,7 @@ permalink: /projects/billing/
 <section class="page-title parallax-section">
    <div class="row-parallax-bg">
       <div class="parallax-wrapper" style="transform: translate3d(0px, 0px, 0px);">
-         <div class="parallax-bg" style="background-image: url('/assets/images/billing-ipad.jpg');"></div>
+         <div class="parallax-bg" style="background-image: url('{{site.baseurl}}/assets/images/billing-ipad.jpg');"></div>
       </div>
       <div class="parallax-overlay"></div>
    </div>
@@ -64,7 +64,7 @@ permalink: /projects/billing/
 <section class="split-section">
    <div class="side-background">
       <div class="col-md-6 col-sm-4 img-side img-left">
-         <div class="img-holder img-cover" style="background-image: url('/assets/images/billing-sketches.jpg');"></div>
+         <div class="img-holder img-cover" style="background-image: url('{{site.baseurl}}/assets/images/billing-sketches.jpg');"></div>
       </div>
    </div>
    <div class="container">
@@ -89,7 +89,7 @@ permalink: /projects/billing/
 <section class="split-section">
    <div class="side-background">
       <div class="col-md-6 col-sm-4 img-side img-right">
-         <div class="img-holder img-cover" style="background-image: url('/assets/images/billing-wireframes.jpg');"></div>
+         <div class="img-holder img-cover" style="background-image: url('{{site.baseurl}}/assets/images/billing-wireframes.jpg');"></div>
       </div>
    </div>
    <div class="container">
@@ -112,7 +112,7 @@ permalink: /projects/billing/
 <section class="split-section">
    <div class="side-background">
       <div class="col-md-6 col-sm-4 img-side img-left">
-         <div class="img-holder img-cover" style="background-image: url('/assets/images/billing-delivery.jpg');"></div>
+         <div class="img-holder img-cover" style="background-image: url('{{site.baseurl}}/assets/images/billing-delivery.jpg');"></div>
       </div>
    </div>
    <div class="container">
