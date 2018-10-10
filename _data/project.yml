@@ -1,7 +1,7 @@
 - class: branding ui-ux
-  imgSrc: {{site.baseurl}}/assets/images/billing-ipad.jpg
+  imgSrc: /assets/images/billing-ipad.jpg
   imgAlt: Screen shot of Tallan Billing App
-  url: {{site.baseurl}}/projects/billing/
+  url: /projects/billing/
   Title: Billing App
   Description: 'Envisioning, Wireframes, Design, Branding, UX/UI'
 

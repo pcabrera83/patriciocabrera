@@ -17,8 +17,8 @@
                         {% for project in site.data.project %}
                     <div class="work-item {{ project.class }}">
                         <div class="work-detail">
-                            <a href="{{ project.url }}">
-                                <img alt="{{ project.imgAlt }}" src="{{ project.imgSrc }}">
+                            <a href="{{ project.url | relative_url }}">
+                                <img alt="{{ project.imgAlt }}" src="{{ project.imgSrc | relative_url }}">
                                 <div class="work-info">
                                     <div class="centrize">
                                         <div class="v-center">

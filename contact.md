@@ -21,7 +21,7 @@ permalink: /contact/
 <section class="page-title parallax-section">
    <div class="row-parallax-bg">
       <div class="parallax-wrapper">
-         <div class="parallax-bg"><img alt="" src="/assets/images/bg-image-30.jpg"></div>
+         <div class="parallax-bg"><img alt="" src="{{site.baseurl}}/assets/images/bg-image-30.jpg"></div>
       </div>
       <div class="parallax-overlay"></div>
    </div>

@@ -4578,7 +4578,7 @@ section.section-skewed.section-bordered #home-slider:after {
   right: 0;
   bottom: 0;
   top: 0;
-  background-image: url('/assets/images/dotted-map.png');
+  background-image: url('/patriciocabrera/assets/images/dotted-map.png');
   background-size: contain;
   opacity: .8;
 }
@@ -7552,11 +7552,11 @@ img.zoom-img {
   Helpers
 */
 .earth-map-bg {
-  background-image: url('/assets/images/dotted-map.png');
+  background-image: url('/patriciocabrera/assets/images/dotted-map.png');
   background-size: contain;
 }
 .geometric-bg {
-  background-image: url('/assets/geometric-pattern.png');
+  background-image: url('/patriciocabrera/assets/geometric-pattern.png');
   background-repeat: repeat;
 }
 .gradient {
@@ -17633,8 +17633,8 @@ button.close {
 }
 @font-face {
   font-family: "hody-icons";
-  src: url("/assets/fonts/hody-icons.eot");
-  src: url("/assets/fonts/hody-icons.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/hody-icons.woff") format("woff"), url("/assets/fonts/hody-icons.ttf") format("truetype"), url("/assets/fonts/hody-icons.svg#hody-icons") format("svg");
+  src: url("{{ /patriciocabrera/assets/fonts/hody-icons.eot");
+  src: url("{{ /patriciocabrera/assets/fonts/hody-icons.eot?#iefix") format("embedded-opentype"), url("/patriciocabrera/assets/fonts/hody-icons.woff") format("woff"), url("/patriciocabrera/assets/fonts/hody-icons.ttf") format("truetype"), url("/patriciocabrera/assets/fonts/hody-icons.svg#hody-icons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
