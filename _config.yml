@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Patricio Cabrera | UX/UI Designer
 email: pcabrera83@gmail.com
+phone: 860-992-7170
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -42,8 +43,8 @@ defaults:
     values: 
       image: true
 
-#LESS
-# gems: ['jekyll-less']
+gems:
+- jekyll-email-protect
 
 #CSS
 auotprefixer:
@@ -54,8 +55,9 @@ auotprefixer:
 # Analytics
 jekyll_analytics:
   GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-123-456          # Required - replace with your tracking id
-    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
+    id: UA-127224975-1          # Required - replace with your tracking id
+    anonymizeIp: true      # Optional - Default: false - set to true for anonymized tracking
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

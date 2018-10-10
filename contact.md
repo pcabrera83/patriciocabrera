@@ -21,9 +21,12 @@ permalink: /contact/
 <section class="page-title parallax-section">
    <div class="row-parallax-bg">
       <div class="parallax-wrapper">
-         <div class="parallax-bg"><img alt="" src="{{site.baseurl}}/assets/images/bg-image-30.jpg"></div>
+         <div class="parallax-bg">
+         <img alt="" src="{{site.baseurl}}/assets/images/bg-image-30.jpg">
       </div>
-      <div class="parallax-overlay"></div>
+      </div>
+      <div class="parallax-overlay">
+      </div>
    </div>
    <div class="centrize">
       <div class="v-center">
@@ -46,7 +49,7 @@ permalink: /contact/
                   <i class="hc-mail-open"></i>
                   <div class="ib-content">
                      <h3>Email</h3>
-                     <p>pcabrera83@gmail.com</p>
+                     <p><a href="mailto:{{ site.email | encode_email }}">{{ site.email }}</a></p>
                   </div>
                </div>
             </div>
@@ -57,7 +60,11 @@ permalink: /contact/
                   <i class="hc-megaphone"></i>
                   <div class="ib-content">
                      <h3>Call Me</h3>
-                     <p>860-992-7170</p>
+                     <p>
+                        <a href="tel:{{ site.phone }}">
+                              {{ site.phone }}
+                        </a>
+                  </p>
                   </div>
                </div>
             </div>

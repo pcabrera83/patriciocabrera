@@ -50,8 +50,7 @@ seo:
 
 
 
-google-analytics-ua: ''
-
+google-analytics-ua: 'UA-127224975-1'
 
 
 #-------------------------------
@@ -91,7 +90,6 @@ contact: >
   # Contact
 
 
-
   You may contact me [through my email](mailto:l.nguyen.paul@gmail.com) or [tweet at me](https://twitter.com/intent/tweet?text=%40paululele) if you have any questions or would like to bring up any issues.
 
 
@@ -110,4 +108,3 @@ social:
 - {icon: 'github', link: 'https://github.com/pcabrera83', class: 'social-item-github', iclass: 'hc-github'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/patricio-cabrera-2349a028/', class: 'social-item-linkedin', iclass: 'hc-linkedin'}
 - {icon: 'twitter', link: 'https://twitter.com/patricio6883', class: 'social-item-twitter' , iclass: 'hc-twitter'}
-- {icon: 'mail', link: 'mailto:pcabrera83@gmail.com', class: 'social-mail-open', iclass: 'hc-mail-open'}

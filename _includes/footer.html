@@ -10,9 +10,15 @@
                             </figure>
                         </a>
                         <div class="textwidget">
-                            <p>Hartford, CT</p>
-                            <p>pcabrera83@gmail.com<br>
-                            860-992-7170</p>
+                            <p>
+                                <a href="mailto:{{ site.email | encode_email }}">
+                                    Contact Me
+                                </a>
+                                <br>
+                                <a href="tel:{{ site.phone }}">
+                                        {{ site.phone }}
+                                  </a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -75,7 +81,16 @@
 </script>
 <script src="{{site.baseurl}}/assets/js/jquery.mb.YTPlayer.js" type="text/javascript">
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNGOsBBZo9vf0Tw4w6aJiilSTFVfQ5GPI" type="text/javascript">
-</script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNGOsBBZo9vf0Tw4w6aJiilSTFVfQ5GPI" type="text/javascript">
+</script> -->
 <script src="{{site.baseurl}}/assets/js/main.js" type="text/javascript">
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127224975-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127224975-1');
 </script>
