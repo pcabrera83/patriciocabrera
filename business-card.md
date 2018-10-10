@@ -1,6 +1,7 @@
 ---
 layout: "page"
 title: Intranet
+description:
 permalink: /projects/business-card/
 ---
 

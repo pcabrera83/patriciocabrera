@@ -27,7 +27,8 @@ group :jekyll_plugins do
   gem 'jekyll-sass-converter'
   gem 'hawkins'
   gem 'jekyll-minifier'
-  # gem 'jekyll-less'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-seo-tag'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

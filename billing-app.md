@@ -1,6 +1,7 @@
 ---
 layout: "page"
 title: Intranet
+description: This is a test
 permalink: /projects/billing/
 ---
 
