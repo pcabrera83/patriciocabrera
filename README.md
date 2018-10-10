@@ -28,7 +28,7 @@ Use handlebars-style tags to dynamically include substitution variables.  For ex
 If you are want to loop through a list you need to create a `<fileName>.YML` in the `_data` folder.
 
 ```xml
-<!-- Data File -->
+<!-- Data File _data/project.yml -->
 - class: css class
   imgSrc: <imagePath>
   imgAlt: Image Alt Tag
@@ -54,16 +54,3 @@ If you are want to loop through a list you need to create a `<fileName>.YML` in 
     </div>
 </div>
 {% endfor %}
-
-<!-- DON'T DO THIS - it won't work: -->
-<mj-column>
-    {{#each people}}
-        <mj-text>Hi, {{ name }}</mj-text>
-    {{/each}}>
-</mj-column>
-```
-
-
-To preview how a template will work with realistic sample data, create a sample data file 
-called `templates/[templateName]/sample-data.json` and then preview the template with 
-`npm run builder preview [templateName]`
