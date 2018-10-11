@@ -1,12 +1,17 @@
 ---
-layout: "wrapper"
-author: "Patricio"
+layout: "post"
 ---
 
-<h2>{{ page.title }}</h2>
-<h3>{{ layout.author }}</h3>
-<hr>
+<html>
+{% include head.html %}
+{% include nav.html %}
 
+<body>
+    <div id="wrapper">
+        {% include preloader.html %}
+        {{ content }}
+        {% include footer.html %}
+    </div>
+</body>
 
-
-{{ content }}
+</html>

@@ -13,15 +13,23 @@
         </div>
     </div>
 </section>
-<section class="b-0 p-0">
-    <div class="container-fluid">
+<!-- 
+    Project Section 
+-->
+<section style="border: none;">
+    <div class="container">
         <div class="row">
-            <div class="three-col" id="works-grid">
+            <ul id="filters">
+                {% for tabs in site.data.tabs %}
+                <li class="{{ tabs.class }}" data-filter="{{ tabs.data }}">{{ tabs.content }}</li>
+                {% endfor %}
+            </ul>
+            <div class="with-spacing four-col" id="works-grid">
                 {% for project in site.data.project %}
-                <div class="work-item {{ project.class }}">
-                    <div class="work-detail">
-                        <a href="{{ project.url | relative_url }}">
-                            <img alt="{{ project.imgAlt }}" src="{{ project.imgSrc | relative_url }}">
+                <a href="{{ project.url | relative_url }}">
+                    <div class="work-item {{ project.class }}">
+                        <div class="work-detail">
+                            <img src="{{ project.imgSrc | relative_url }}" alt="{{ project.imgAlt }}">
                             <div class="work-info">
                                 <div class="centrize">
                                     <div class="v-center">
@@ -30,11 +38,10 @@
                                     </div>
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
-                </div>
+                </a>
                 {% endfor %}
             </div>
         </div>
-    </div>
 </section>

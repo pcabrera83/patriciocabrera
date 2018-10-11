@@ -1,9 +1,13 @@
 <html>
-    {% include head.html %}
-    {% include nav.html %}
-    <body> 
-		{% include preloader.html %}
-		{% include index.html %} 
-    	{% include footer.html %}    
-    </body>
-</html>   
+{% include head.html %}
+{% include nav.html %}
+
+<body>
+    <div id="wrapper">
+        {% include preloader.html %}
+        {% include index.html %}
+        {% include footer.html %}
+    </div>
+</body>
+
+</html>

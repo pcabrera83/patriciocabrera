@@ -1,0 +1,15 @@
+- class: active
+  data: "*"
+  content: All
+
+- data: .ui-ux
+  content: UI/UX
+
+- data: .branding
+  content: Branding
+
+- data: .product-design
+  content: Product Design
+
+- data: .graphicdesign
+  content: Graphic Design

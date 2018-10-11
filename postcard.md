@@ -5,20 +5,6 @@ description:
 permalink: /projects/postcard/
 ---
 
-<style>
-      .new-paragraph {
-            width: 457px;
-      }
-      @media only screen and (max-width: 475px) {
-            .new-paragraph { 
-                  width: 370px;
-            }
-            .remove-margin-top {
-                  margin-top: -200px;
-            }
-      }
-</style>
-
 <section class="page-title parallax-section">
    <div class="row-parallax-bg">
       <div class="parallax-wrapper" style="transform: translate3d(0px, 0px, 0px);">

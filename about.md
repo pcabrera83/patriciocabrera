@@ -1,47 +1,74 @@
 ---
-layout: "page"
-title: About
+layout: "post"
+title: "About Me"
 description:
+author: Patricio Cabrera
+date: October 11, 2018
+category: Biography
 permalink: /about
 ---
-
+<style>
+    p {
+        color: #787878;
+        font-size: 16px;
+    }
+</style>   
 <section class="page-title parallax-section">
-   <div class="row-parallax-bg">
-      <div class="parallax-wrapper">
-         <div class="parallax-bg"><img alt="" src="{{site.baseurl}}/assets/images/bg-image-40.jpg"></div>
-      </div>
-      <div class="parallax-overlay"></div>
-   </div>
-   <div class="centrize">
-      <div class="v-center">
-         <div class="container">
-            <div class="title text-center">
-               <!--                <h4 class="upper">Who am I?</h4>-->
-               <h1>About Me</h1>
+    <div class="row-parallax-bg">
+        <div class="parallax-wrapper">
+            <div class="parallax-bg">
+                <img src="{{ site.baseurl }}/assets/images/cuenca.jpeg" alt="">
             </div>
-         </div>
-      </div>
-   </div>
+        </div>
+        <div class="parallax-overlay"></div>
+    </div>
+    <div class="centrize">
+        <div class="v-center">
+            <div class="container">
+                <div class="single-post-info">
+                <div class="title text-center">
+                    <h1 style="font-weight: 700;">{{ page.title }}</h1>
+                </div>
+                    <div class="post-author">
+                        <img style="width: 140px;" src="{{ site.baseurl }}/assets/images/patricio-headshot.jpg" alt="">
+                        <!-- <a href="#"> 
+                        by {{ page.author}}
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <section>
-   <div class="container">
-      <div class="row">
-         <div class="col-md-8 col-md-offset-2">
-            <div class="title text-center">
-               <h6 class="colored-text">&nbsp;</h6>
-               <h2>Born in Ecuador.<br>
-                  Raised in Hartford, CT.
-               </h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <article class="post-single">
+                <div class="post-body">
+                  <p class="first-letter">This is the <strong>about me page</strong>. What to say? Like many of you, I struggle with talking about myself, which in my line of work is not good. We can start at what I do, as you probably guessed, I am a UX/UI designer based in the Northeast of the U.S.A.
+                  </p>
+                  <p>I love my work and I constantly looking at new ways to innovate and challenge myself. Which reminds me of this qoute by Henry Ford.</p>
+                  <blockquote>
+                    <p>If I had asked people what they wanted, they would have said faster horses.</p>
+                  </blockquote>
+                  <img src="{{ site.baseurl }}/assets/images/riocuenca.jpg" alt="" data-action="zoom">
+                  <p>When I'm not at work, you can find me at home spending time with my wife and kids. Watching movies, cycling, running or playing video games.</p>
+                  <p>Oh the pictures on this page are from my hometown of Cuenca, Ecuador. I love the architeture and I feel people don't know about it. So why not show my hometown some love.</p>
+                  <h3 style="font-weight: 700; font-family: 'Poppins', sans-serif; color: #1f1f1f; line-height: 1.3;     font-size: 24px;}">Fun Facts</h3>
+                  <ul>
+                  {% for facts in site.data.facts %}
+                    <li>{{ facts.name}}</li>
+                    {% endfor %}
+                  </ul>
+                </div>
+                <!-- <div class="tagcloud">
+                    {% for skills in site.data.skills %}
+                    <a href="{{ skills.link }}">{{skills.content}}</a>
+                    {% endfor %}
+                </div> -->
+              </article>
             </div>
-            <div class="section-content text-center fw-300 font-20 align-left">
-               <p>Hello, Welcome! Here is where I tell you about myself. Sadly, I'm not a writer, so Lena Dunham can breathe a sigh of relief or hang her head in shame if she reads this post.<br><br>
-                  Let's begin, I'm Patricio Cabrera, a multi-faceted creative working as a UX Designer in CT. I enjoy working with teams or independently, solving problems using design and UI. I've been creating and designing interactive experiences for over eight years. My passion is knowing that my work made a difference in the lives of the users who use the products I've designed.<br><br>
-                  My professional career began as a graphic design intern for the CT Science Center. I followed this experience by joining McKesson in two roles. First as their eMail Marketing Designer and later as the head Web/UX designer for one of the subsidiary's, Moore Medical. As I grew more confident in my skills and my ability to quickly think on my feet, I moved on to consulting where I had the opportunity to work on a broad range of projects, thus allowing me to grow as a designer and an advocate for the user's experience.<br><br>
-                  When I'm not thinking of design, I'm learning about front-end technologies. So far I delved in NPM, node.js, grunt and gulp, Pug and creating a living style guide using Fabricator. Creating a living style guide was a challenge since I had no experience working on the command line, NPM and node.js.<br><br>
-                  My pastimes include running, drinking coffee, walking my dog, looking at Pinterest for fresh interior design ideas, watching the Patriots play on Sundays and listening to Marc Anthony while I work.
-               </p>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
+          </div>
+        </div>
+      </section>
