@@ -20,6 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my site. You will find my work, from UX, UI, HMTL, CSS coding.
 baseurl: "/patriciocabrera"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+timezone: America/New_York
 twitter_username: patricio6883
 github_username:  pcabrera83
 
