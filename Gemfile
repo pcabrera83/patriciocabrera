@@ -24,7 +24,7 @@ group :jekyll_plugins do
   gem 'jekyll-email-protect'
   gem 'jekyll-analytics'
   gem 'jekyll-autoprefixer'
-  gem 'jekyll-sass-converter'
+  gem 'sassc'
   gem 'hawkins'
   gem 'jekyll-minifier'
   gem 'jekyll-sitemap'
