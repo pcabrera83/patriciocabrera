@@ -42,7 +42,7 @@ defaults:
     values: 
       image: true
 
-gems:
+plugins:
 - jekyll-email-protect
 
 #CSS
