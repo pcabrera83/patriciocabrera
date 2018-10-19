@@ -1,4 +1,4 @@
-<footer id="footer">
+<footer id="footer" class="dark-footer">
     <div class="footer-widgets">
         <div class="container">
             <div class="row">
@@ -16,8 +16,8 @@
                                 </a>
                                 <br>
                                 <a href="tel:{{ site.phone }}">
-                                        {{ site.phone }}
-                                  </a>
+                                    {{ site.phone }}
+                                </a>
                             </p>
                         </div>
                     </div>
@@ -28,9 +28,9 @@
                         <div class="menu-footer">
                             <ul>
                                 {% for item in site.data.settings.menu %}
-                                    <li class="">
-                                        <a href="{{ site.baseurl }}/{{ item.url }}">{{ item.name }}</a>
-                                    </li>
+                                <li class="">
+                                    <a href="{{ site.baseurl }}/{{ item.url }}">{{ item.name }}</a>
+                                </li>
                                 {% endfor %}
                             </ul>
                         </div>
@@ -88,9 +88,12 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127224975-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-127224975-1');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-127224975-1');
 </script>

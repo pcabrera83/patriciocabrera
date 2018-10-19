@@ -19,12 +19,12 @@
 <section style="border: none;">
     <div class="container">
         <div class="row">
-            <ul id="filters">
+            <ul id="filters" class="dark-skin">
                 {% for tabs in site.data.tabs %}
                 <li class="{{ tabs.class }}" data-filter="{{ tabs.data }}">{{ tabs.content }}</li>
                 {% endfor %}
             </ul>
-            <div class="with-spacing four-col" id="works-grid">
+            <div id="works-grid" class="four-col with-spacing">
                 {% for project in site.data.project %}
                 <a href="{{ project.url | relative_url }}">
                     <div class="work-item {{ project.class }}">
