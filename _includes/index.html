@@ -3,8 +3,7 @@
         <div class="row pt-50 pb-50">
             <div class="col-md-8 col-md-offset-1">
                 <div class="title m-0">
-                    <h6 class="capitalize">Hello and Welcome! Today is {{ site.time site.timezone | date: '%A, %B %d,
-                        %Y' }}.</h6>
+                    <h6 class="capitalize">Hello and Welcome! Today is .</h6>
                     <h1 class="fw-400">I am a UX Designer who likes to create cool <span class="typed-words fw-600 colored-text"
                             data-strings="[&quot;apps&quot;, &quot;websites&quot;, &quot;software&quot;]"></span>that
                         people enjoy using.</h1>
@@ -45,3 +44,24 @@
             </div>
         </div>
 </section>
+<script>
+    var objToday = new Date(),
+        weekday = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'),
+        dayOfWeek = weekday[objToday.getDay()],
+        domEnder = function () {
+            var a = objToday;
+            if (/1/.test(parseInt((a + "").charAt(0)))) return "th";
+            a = parseInt((a + "").charAt(1));
+            return 1 == a ? "st" : 2 == a ? "nd" : 3 == a ? "rd" : "th"
+        }(),
+        dayOfMonth = today + (objToday.getDate() < 10) ? '0' + objToday.getDate() + domEnder : objToday.getDate() +
+        domEnder,
+        months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
+            'October', 'November', 'December'),
+        curMonth = months[objToday.getMonth()],
+        curYear = objToday.getFullYear();
+    var today = "Hello and Welcome! Today is " + dayOfWeek + ", " + " " + curMonth + " " + dayOfMonth + ", " + curYear +
+        ".";
+
+    document.getElementsByClassName('capitalize')[0].textContent = today;
+</script>
