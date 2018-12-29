@@ -46,7 +46,7 @@
 </section>
 <script>
     var objToday = new Date(),
-        weekday = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'),
+        weekday = [new Array]('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'),
         dayOfWeek = weekday[objToday.getDay()],
         domEnder = function () {
             var a = objToday;
@@ -62,6 +62,5 @@
         curYear = objToday.getFullYear();
     var today = "Hello and Welcome! Today is " + dayOfWeek + ", " + " " + curMonth + " " + dayOfMonth + ", " + curYear +
         ".";
-
     document.getElementsByClassName('capitalize')[0].textContent = today;
 </script>
