@@ -2,44 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekbubyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: "wrapper"
+layout: "default"
+description:  Leading design, research, design systems, and multiple projects. As a UX designer, I've helped businesses make apps, websites and products that make sense to the people who use them. I enjoy taking difficult problems and the collaborative design process as it helps fuel my drive to improve people’s lives through human-centered design.
 permalink: 
 ---
-
-<section class="earth-map-bg">
-    <div class="container">
-        <div class="row pt-50 pb-50">
-            <div class="col-md-8 col-md-offset-1">
-                <div class="title m-0">
-                    <!-- <h6>Hello and Welcome! Today is {{ site.time | date: '%a, %b %d, %y' }}</h6> -->
-                    <h1 class="fw-400">I am a UX Designer who likes to create cool <span class="typed-words fw-600 colored-text" data-strings="[&quot;apps&quot;, &quot;websites&quot;, &quot;software&quot;]"></span>that people enjoy using.</h1>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="b-0 p-0">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="three-col" id="works-grid">
-                    {% for project in site.data.project %}
-                <div class="work-item {{ project.class }}">
-                    <div class="work-detail">
-                        <a href="{{ project.url | relative_url }}">
-                            <img alt="{{ project.imgAlt }}" src="{{ project.imgSrc | relative_url }}">
-                            <div class="work-info">
-                                <div class="centrize">
-                                    <div class="v-center">
-                                        <h3>{{ project.title }}</h3>
-                                        <p>{{ project.description }}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-</section>
