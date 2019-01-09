@@ -1,0 +1,8 @@
+--- scss: sass_dir: _sass --- @charset "utf-8";
+
+/* Variables */
+$color-primary: #00c3da;
+
+.colored-bg {
+    background-color: $color-primary;
+}

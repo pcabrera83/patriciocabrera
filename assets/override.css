@@ -1,0 +1,47 @@
+/* Typography */
+.pc-heading-3 {
+    text-align: center;
+}
+
+.banner-img {
+    max-width: 140%;
+}
+
+.colored-bg {
+    background-color: #00c3da !important;
+}
+
+.geometric-bg {
+    background-image: url('/patriciocabrera/assets/images/geometric-pattern-W.png');
+    background-repeat: repeat;
+}
+
+.pi-update strong {
+    color: #444444 !important;
+}
+
+.pi-update ul li {
+    font-size: 1.3em !important;
+    display: inline-block;
+    margin-right: 1.3em;
+}
+
+.pi-update li {
+    color: #f9f9f9 !important;
+}
+
+/* Utility */
+
+.nb-top {
+    border-top: 0px;
+}
+
+@media (max-width: 991px) {
+    .banner-img {
+        max-width: 90%;
+    }
+
+    .pi-update ul li {
+        /* display: block; */
+    }
+}
