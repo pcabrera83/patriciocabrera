@@ -6,3 +6,70 @@ layout: "default"
 description:  Leading design, research, design systems, and multiple projects. As a UX designer, I've helped businesses make apps, websites and products that make sense to the people who use them. I enjoy taking difficult problems and the collaborative design process as it helps fuel my drive to improve people’s lives through human-centered design.
 permalink: 
 ---
+
+<section class="earth-map-bg">
+    <div class="container">
+        <div class="row pt-50 pb-50">
+            <div class="col-md-8 col-md-offset-1">
+                <div class="title m-0">
+                    <h6 class="capitalize">Hello and Welcome!</h6>
+                    <h1 class="fw-400">I am a UX Designer who likes to create cool <span class="typed-words fw-600 colored-text"
+                            data-strings="[&quot;apps&quot;, &quot;websites&quot;, &quot;software&quot;]"></span>that
+                        people enjoy using.</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 
+    Project Section 
+-->
+<section style="border: none;">
+    <div class="container">
+        <div class="row">
+            <ul id="filters" class="dark-skin">
+                {% for tabs in site.data.tabs %}
+                <li class="{{ tabs.class }}" data-filter="{{ tabs.data }}">{{ tabs.content }}</li>
+                {% endfor %}
+            </ul>
+            <div id="works-grid" class="four-col with-spacing">
+                {% for project in site.data.project %}
+                <a href="{{ project.url | relative_url }}">
+                    <div class="work-item {{ project.class }}">
+                        <div class="work-detail">
+                            <img src="{{ project.imgSrc | relative_url }}" alt="{{ project.imgAlt }}">
+                            <div class="work-info">
+                                <div class="centrize">
+                                    <div class="v-center">
+                                        <h3>{{ project.title }}</h3>
+                                        <p>{{ project.description }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+</section>
+<script>
+    var objToday = new Date(),
+        weekday = [new Array]('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'),
+        dayOfWeek = weekday[objToday.getDay()],
+        domEnder = function () {
+            var a = objToday;
+            if (/1/.test(parseInt((a + "").charAt(0)))) return "th";
+            a = parseInt((a + "").charAt(1));
+            return 1 == a ? "st" : 2 == a ? "nd" : 3 == a ? "rd" : "th"
+        }(),
+        dayOfMonth = today + (objToday.getDate() < 10) ? '0' + objToday.getDate() + domEnder : objToday.getDate() +
+        domEnder,
+        months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
+            'October', 'November', 'December'),
+        curMonth = months[objToday.getMonth()],
+        curYear = objToday.getFullYear();
+    var today = "Hello and Welcome! Today is " + dayOfWeek + ", " + " " + curMonth + " " + dayOfMonth + ", " + curYear +
+        ".";
+    document.getElementsByClassName('capitalize')[0].textContent = today;
+</script>
