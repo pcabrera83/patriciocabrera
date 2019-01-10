@@ -5,7 +5,6 @@ layout: "default"
 description: 
 permalink: 
 ---
-{% include nav.html %}
 <section class="earth-map-bg">
     <div class="container">
         <div class="row pt-50 pb-50">
