@@ -1,7 +1,6 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekbubyllrb.com/docs/themes/#overriding-theme-defaults
 layout: "default"
+title: "Homepage"
 description: 
 permalink: 
 ---
@@ -10,7 +9,7 @@ permalink:
         <div class="row pt-50 pb-50">
             <div class="col-md-8 col-md-offset-1">
                 <div class="title m-0">
-                    <h6 class="capitalize">Hello and Welcome!</h6>
+                    <h6 class="capitalize">Hello andbbbb Welcome!</h6>
                     <h1 class="fw-400">I am a UX Designer who likes to create cool <span class="typed-words fw-600 colored-text"
                             data-strings="[&quot;apps&quot;, &quot;websites&quot;, &quot;software&quot;]"></span>that
                         people enjoy using.</h1>
