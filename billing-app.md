@@ -5,7 +5,7 @@ description: This is a test
 permalink: /projects/billing/
 ---
 
-<section class="page-title parallax-section">
+<section class="page-title parallax-section section-skewed section-bordered home-section p-0">
    <div class="row-parallax-bg">
       <div class="parallax-wrapper" style="transform: translate3d(0px, 0px, 0px);">
          <div class="parallax-bg" style="background-image: url('{{site.baseurl}}/assets/images/billing-ipad.jpg');"></div>
@@ -32,7 +32,7 @@ permalink: /projects/billing/
       <div class="row">
          <div class="col-md-5 mb-50">
             <div class="title">
-               <h2 class="mt-0">Billing App</h2>
+               <h2 class="mt-0">Brief</h2>
             </div>
             <div class="section-content">
                <p>Tallan needed a billing app that allowed their finance team to create invoices for their clients. The goal was to conceptualize a design that will enable them to procure all time entries and expenses to create bills. Also, the app needed to have the ability to look up previous statements, pull reports and create discounts.</p>

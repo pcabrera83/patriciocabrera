@@ -1,3 +1,36 @@
+/*
+    01
+    Global
+*/
+
+body {
+    background: #F9F9F9;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h2 {
+    color: #434A5E;
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.75em;
+    /* color: #434A5E; */
+    font-size: 1.15em;
+}
+
+svg {
+    height: auto;
+}
+
+#filters.dark-skin li.active {
+    color: #F9F9F9;
+}
+
 /* Typography */
 .pc-heading-3 {
     text-align: center;
@@ -26,7 +59,8 @@
     margin-right: 1.3em;
 }
 
-.pi-update li {
+.pi-update li .active {
+    border-color: #f9f9f9;
     color: #f9f9f9 !important;
 }
 
