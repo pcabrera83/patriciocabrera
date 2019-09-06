@@ -8,7 +8,7 @@ menu:
 
 - {name: 'Home', url: ''}
 
-- {name: 'About', url: 'about'}
+# - {name: 'About', url: 'about'}
 
 # - {name: 'Contact', url: 'contact'}
 
@@ -103,8 +103,8 @@ contact: >
 
 # Social 
 
-social:
-- {icon: 'behance', link: 'https://www.behance.net/pcabrera83cd90', class: 'social-item-behance', iclass: 'hc-behance'}
-- {icon: 'github', link: 'https://github.com/pcabrera83', class: 'social-item-github', iclass: 'hc-github'}
-- {icon: 'linkedin', link: 'https://www.linkedin.com/in/patricio-cabrera-2349a028/', class: 'social-item-linkedin', iclass: 'hc-linkedin'}
-- {icon: 'twitter', link: 'https://twitter.com/patricio6883', class: 'social-item-twitter' , iclass: 'hc-twitter'}
+# social:
+# - {icon: 'behance', link: 'https://www.behance.net/pcabrera83cd90', class: 'social-item-behance', iclass: 'hc-behance'}
+# - {icon: 'github', link: 'https://github.com/pcabrera83', class: 'social-item-github', iclass: 'hc-github'}
+# - {icon: 'linkedin', link: 'https://www.linkedin.com/in/patricio-cabrera-2349a028/', class: 'social-item-linkedin', iclass: 'hc-linkedin'}
+# - {icon: 'twitter', link: 'https://twitter.com/patricio6883', class: 'social-item-twitter' , iclass: 'hc-twitter'}
