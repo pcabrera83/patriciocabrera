@@ -78,7 +78,7 @@ permalink:
     </div>
 </section>
 <!-- Expertise Section -->
-<!-- <section class="dark-bg section-skewed">
+<section class="dark-bg section-skewed">
     <div class="container">
         <div class="title">
             <h2>Experience</h2>
@@ -216,4 +216,4 @@ permalink:
     <div class="skewed-mask">
         <div class="mask-block" style="background: rgb(247, 247, 247) none repeat scroll 0% 0%;"></div>
     </div>
-</section> -->
+</section>
