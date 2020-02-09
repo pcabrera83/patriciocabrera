@@ -81,16 +81,10 @@ about: >
 
 
 
-  This is a personal portfolio theme that I built from the ground up, using the [DevTips Starter Kit](http://devtipsstarterkit.com/) as a foundation for starting, and following closely the amazing tutorial by [Travis Neilson over at DevTips](https://www.youtube.com/watch?v=T6jKLsxbFg4&list=PL0CB3OvPhDA_STygmp3sDenx3UpdOMk7P). You can [check out the demo](lenpaul.github.io/portfolio-jekyll-theme/), and [fork the repository](https://github.com/LeNPaul/portfolio-jekyll-theme/fork), to get started.
-
-
 
 contact: >
 
   # Contact
-
-
-  You may contact me [through my email](mailto:l.nguyen.paul@gmail.com) or [tweet at me](https://twitter.com/intent/tweet?text=%40paululele) if you have any questions or would like to bring up any issues.
 
 
 
@@ -103,8 +97,8 @@ contact: >
 
 # Social 
 
-# social:
-# - {icon: 'behance', link: 'https://www.behance.net/pcabrera83cd90', class: 'social-item-behance', iclass: 'hc-behance'}
-# - {icon: 'github', link: 'https://github.com/pcabrera83', class: 'social-item-github', iclass: 'hc-github'}
-# - {icon: 'linkedin', link: 'https://www.linkedin.com/in/patricio-cabrera-2349a028/', class: 'social-item-linkedin', iclass: 'hc-linkedin'}
-# - {icon: 'twitter', link: 'https://twitter.com/patricio6883', class: 'social-item-twitter' , iclass: 'hc-twitter'}
+social:
+- {icon: 'behance', link: 'https://www.behance.net/pcabrera83', class: 'social-item-behance', iclass: 'hc-behance'}
+- {icon: 'github', link: 'https://github.com/pcabrera83', class: 'social-item-github', iclass: 'hc-github'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/patricio-cabrera-2349a028/', class: 'social-item-linkedin', iclass: 'hc-linkedin'}
+- {icon: 'twitter', link: 'https://twitter.com/patricio6883', class: 'social-item-twitter' , iclass: 'hc-twitter'}
